@@ -1,5 +1,7 @@
 import shutil
 
+# Can be used to rename files and directories
+
 def move_file(src, dst):
     shutil.move(src, dst)
 
