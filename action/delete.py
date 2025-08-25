@@ -5,7 +5,7 @@ def remove_file(file):
         try:
             os.remove(file)
         except OSError as e:
-            print(f'Error: {f} : {e.strerror}')
+            print(f'Error: {file} : {e.strerror}')
     else:
         print(f'Error: {file} is not a valid file')
 
